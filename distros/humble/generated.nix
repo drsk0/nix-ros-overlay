@@ -3704,6 +3704,12 @@ self: super: {
 
  yasmin-viewer = self.callPackage ./yasmin-viewer {};
 
+ yolo-ros = self.callPackage ./yolo-ros {};
+
+ yolo-msgs = self.callPackage ./yolo-msgs {};
+
+ yolo-bringup = self.callPackage ./yolo-bringup {};
+
  zbar-ros = self.callPackage ./zbar-ros {};
 
  zed-msgs = self.callPackage ./zed-msgs {};
