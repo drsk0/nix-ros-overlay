@@ -2144,6 +2144,12 @@ self: super: {
 
  openvdb-vendor = self.callPackage ./openvdb-vendor {};
 
+ open-vins-core = self.callPackage ./open-vins-core {};
+
+ open-vins-init = self.callPackage ./open-vins-init {};
+
+ open-vins-msckf = self.callPackage ./open-vins-msckf {};
+
  orocos-kdl-vendor = self.callPackage ./orocos-kdl-vendor {};
 
  ortools-vendor = self.callPackage ./ortools-vendor {};
