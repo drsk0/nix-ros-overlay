@@ -39,11 +39,10 @@ buildRosPackage {
     cv-bridge
     tf2-ros
     tf2-geometry-msgs
-    image-transport
     nav-msgs
   ];
   checkInputs = [ ];
-  propagatedBuildInputs = [ ];
+  propagatedBuildInputs = [ image-transport ];
   nativeBuildInputs = [ ament-cmake-ros ];
 
   meta = {
